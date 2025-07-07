@@ -1,0 +1,18 @@
+# Environment variables (CRITICAL - NEVER PUSH!)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Uploads (if any)
+uploads/
