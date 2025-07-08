@@ -26,7 +26,7 @@ A full-stack MERN application that enables multiple users to collaborate on task
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
 - **MongoDB** - Database
-- **Mongoose** - ODM for MongoDB
+- **Mongoose** - MongoDB Atlas
 - **Socket.IO** - Real-time communication
 - **JWT** - Authentication
 - **bcryptjs** - Password hashing
