@@ -134,15 +134,6 @@ When two users attempt to edit the same task simultaneously:
 - **Activity Stream**: Real-time activity feed with user actions
 - **Conflict Notifications**: Immediate alerts for editing conflicts
 
-## 🎨 Custom Animations
-
-The application features several custom CSS animations:
-- **Fade In**: Smooth entry animations for modals and cards
-- **Slide In**: Activity items slide in from the left
-- **Bounce**: New activities bounce to draw attention
-- **Card Flip**: Task cards flip when updated
-- **Pulse**: Buttons pulse on interaction
-- **Drag Effects**: Visual feedback during drag operations
 
 ## 📱 Responsive Design
 
@@ -165,26 +156,13 @@ Key responsive features:
 - **CORS Protection**: Configured for specific origins
 - **XSS Prevention**: Proper data sanitization
 
-## 🚀 Deployment
+## 🚀 Deployed Link
 
-### Backend Deployment (Render/Railway/Heroku)
-1. Create a new service on your chosen platform
-2. Connect your GitHub repository
-3. Set environment variables:
-   - `MONGODB_URI`
-   - `JWT_SECRET`
-   - `CLIENT_URL`
-4. Deploy the backend service
+### Backend Deployment (Render)
+https://todo-backend-x7qg.onrender.com
 
-### Frontend Deployment (Vercel/Netlify)
-1. Create a new project on your chosen platform
-2. Connect your GitHub repository
-3. Set build settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Set environment variables:
-   - `VITE_SERVER_URL`
-5. Deploy the frontend
+### Frontend Deployment (Netlify)
+
 
 ### Environment Variables for Production
 \`\`\`env
@@ -204,57 +182,6 @@ VITE_SERVER_URL=https://your-backend-domain.com
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
 
-### Tasks
-- `GET /api/tasks` - Get all tasks
-- `POST /api/tasks` - Create new task
-- `PUT /api/tasks/:id` - Update task
-- `DELETE /api/tasks/:id` - Delete task
-- `POST /api/tasks/:id/smart-assign` - Smart assign task
-- `GET /api/tasks/users` - Get all users
 
-### Activity
-- `GET /api/activity` - Get last 20 activities
 
-## 🧪 Testing
 
-### Manual Testing Checklist
-- [ ] User registration and login
-- [ ] Task creation, editing, and deletion
-- [ ] Drag and drop functionality
-- [ ] Smart assign feature
-- [ ] Real-time updates across multiple browsers
-- [ ] Conflict resolution
-- [ ] Activity logging
-- [ ] Responsive design on different screen sizes
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Socket.IO for real-time communication
-- MongoDB for flexible data storage
-- React team for the excellent UI library
-- Express.js for the robust backend framework
-
-## 📞 Support
-
-If you encounter any issues or have questions, please:
-1. Check the existing issues on GitHub
-2. Create a new issue with detailed description
-3. Contact the development team
-
----
-
-**Demo Video**: [Link to your demo video]
-**Live Application**: [Link to your deployed app]
-**GitHub Repository**: [Link to your GitHub repo]
