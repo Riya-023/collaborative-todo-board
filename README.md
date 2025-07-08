@@ -162,6 +162,7 @@ Key responsive features:
 https://todo-backend-x7qg.onrender.com
 
 ### Frontend Deployment (Netlify)
+https://todo-frontend-kappa-sand.vercel.app/login
 
 
 ### Environment Variables for Production
@@ -181,7 +182,6 @@ VITE_SERVER_URL=https://your-backend-domain.com
 ### Authentication
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
-
 
 
 
